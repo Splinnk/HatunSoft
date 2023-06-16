@@ -4,7 +4,7 @@
         $servidor="localhost";
         $usuario="root";
         $clave="root";
-        $baseDatos="hatunsoft";
+        $baseDatos="hatunfinal";
 
         $con= new PDO('mysql:host='.$servidor.';dbname='.$baseDatos, $usuario, $clave);
         return $con;

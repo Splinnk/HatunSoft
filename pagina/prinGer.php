@@ -23,7 +23,7 @@
       <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
       <link rel="icon" type="image/png" href="../assets/img/favicon.png">
       <title>
-         DOCENTE
+         GERENTE
       </title>
       <!--     Fonts and icons     -->
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
@@ -59,7 +59,7 @@
             <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
             <a class="navbar-brand m-0"  target="_blank">
             <img src="../assets/img/libro.png" class="navbar-brand-img h-100" alt="main_logo">
-            <span class="ms-1 font-weight-bold text-white">DOCENTE</span>
+            <span class="ms-1 font-weight-bold text-white">GERENTE</span>
             </a>
          </div>
          <hr class="horizontal light mt-0 mb-2">
@@ -70,7 +70,15 @@
                      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">book</i>
                      </div>
-                     <span class="nav-link-text ms-1">MIS CURSOS</span>
+                     <span class="nav-link-text ms-1">MIS PROYECTOS</span>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white " href="matriculas.php">
+                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="material-icons opacity-10">book</i>
+                     </div>
+                     <span class="nav-link-text ms-1">INSCRIBIR</span>
                   </a>
                </li>
                <li class="nav-item mt-3">
@@ -84,6 +92,7 @@
                      <span class="nav-link-text ms-1">MI PERFIL</span>
                   </a>
                </li>
+
             </ul>
          </div>
          <div class="sidenav-footer position-absolute w-100 bottom-0 ">

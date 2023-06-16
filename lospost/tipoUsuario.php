@@ -2,13 +2,13 @@
 
 session_start();
 
-if($_SESSION['cargo']=='administrador'){
+if($_SESSION['rol']=='administrador'){
     header('Location: ../pagina/prinAdmin.php');
 }else{
-    if($_SESSION['cargo']=='gerente'){
+    if($_SESSION['rol']=='gerente'){
         header('Location: ../pagina/prinGer.php');
     }else{
-        if($_SESSION['cargo']=='miembro'){
+        if($_SESSION['rol']=='miembro'){
             header('Location: ../pagina/prinMiem.php');
         }    }   
 }
